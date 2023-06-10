@@ -1,0 +1,146 @@
+.Pricing{
+    margin: auto !important;
+    margin-top: 168px !important;
+    padding-left: 20%;
+    padding-right: 30px;    
+
+
+}
+
+.Pricing form{
+    padding: 0;
+    font-family: "Metropolis";
+    padding: 35px 32px;
+    width: 673px !important;
+    background-color: rgba(250, 248, 248, 1);
+    border: 1px solid #282828;
+}
+
+.Pricing  input,
+textarea,
+select {
+    border: none !important;
+    background: #CECACA;
+    font-family: "Metropolis";
+}
+.Pricing  input:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+.Pricing  textarea:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+.Pricing  select:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+
+
+.Pricing select{
+    font-family: "Metropolis";
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #CECACA ;
+    background-image: url(../../assist/aroow.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-position-x: 93% !important;
+    background-position-y: 15px !important;
+    border-radius: 2px;
+    margin-right: 2rem;
+    border-radius: 8px;
+}
+
+
+
+.Pricing .desc{
+    margin-top: 30px !important;
+    margin-bottom: 22px !important;
+    border-radius: 8px;
+    background: #CECACA
+}
+.Pricing  .input1-w{
+    border-radius: 8px;
+    height: 50px;
+   
+}
+
+.Pricing  .input1-w{
+    border-radius: 8px;
+    height: 50px;
+  
+}
+
+
+.Pricing  .input-w{
+    width: 181px ;
+    height: 50px;
+    border-radius: 8px;
+  
+}
+input:focus{
+    border:none !important;
+    background: #CECACA
+    
+ 
+}
+
+
+
+
+option{
+    width: 100% !important;
+}
+.Pricing .priceinput  {
+    margin-right: 38px;
+    padding-left: 0;
+}
+.Pricing  .selectinput {
+   
+    padding-left: 0;
+    padding-right: 0;
+}
+.Pricing  .input-button {
+   
+    padding-right: 0 ;
+    padding-left: 0;
+    
+}
+.Pricing .buttonn{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+    border-radius: 8px;
+    width: 181px ;
+    height: 50px;
+}
+.Pricing .buttonn:hover{
+    
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+}
+.toast-position{
+    top: 5rem !important;
+    right: 0 !important;
+}
+
+@media only screen and (max-width:800px) {
+    .Pricing{
+        margin: auto !important;
+        margin-top: 128px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+            
+    
+    
+    }
+    
+    
+
+}

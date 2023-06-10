@@ -1,0 +1,324 @@
+
+
+
+.Blog {
+    margin: auto !important;
+     margin: 92px 10px !important;
+     font-family: "Metropolis";
+   padding-left: 75px;
+   padding-right: 68px;
+
+}
+
+.Blog form {
+    padding: 25px 36px;
+    background-color: rgba(250, 248, 248, 1);
+    border: 1px solid #282828;
+    margin-top: 18px !important;
+    border-radius: 8px;
+    
+
+}
+.Blog input,
+textarea,
+select {
+    border: none !important;
+    background: #CECACA ;
+    font-family: "Metropolis";
+   }
+
+.Blog select{
+    font-family: "Metropolis";
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #CECACA ;
+    background-image: url(../../assist/aroow.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    margin-right: 2rem;
+   
+  
+}
+.Blog form .headTitle p {
+    margin-bottom: 15px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+
+    font-family: "Metropolis";
+}
+
+.Blog form .img-div {
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 16px;
+    background: #CECACA;
+
+}
+
+.Blog form img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+.Blog form .imgADD {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    border:none;
+   
+}
+
+
+
+.Blog form .imgADD label {
+    width: 90px;
+    height: 70px;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.Blog .titelinput {
+    height: 64px !important;
+    margin-bottom: 16px;
+    margin-right: 1rem;
+    position: relative;
+    
+}
+.Blog .titelinput p{
+   position: absolute;
+   right: 5px;
+   top:-15px;
+ color: #D21312;
+font-weight: 400;
+font-size: 13px;
+}
+
+
+.Blog .subtitelinput {
+    height: 64px !important;
+    margin-bottom: 16px;
+    position: relative;
+    margin-left: 1rem;
+  
+}
+.Blog .subtitelinput p{
+    position: absolute;
+    right: 5px;
+    top:-15px;
+  color: #D21312;
+ font-weight: 400;
+ font-size: 13px;
+ }
+
+.input-h {
+    height: 100% !important;
+    width: 100% !important;
+    border: none;
+    
+}
+
+
+
+.Blog .taginput {
+    height: 64px !important;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.Blog .taginput p{
+    position: absolute;
+    right: 12px;
+    top:-15px;
+  color: #D21312;
+ font-weight: 400;
+ font-size: 13px;
+ }
+ .Blog .divscrpit{
+    position: relative;
+}
+
+.Blog .divscrpit .script {
+    margin-bottom: 31px;
+    background: #CECACA ;
+     box-shadow: none;
+   
+}
+.Blog .divscrpit .script:focus {
+   
+     box-shadow: none;
+   
+}
+
+
+.Blog .divscrpit  p{
+    position: absolute;
+    right: 12px;
+    top:-15px;
+  color: #D21312;
+ font-weight: 400;
+ font-size: 13px;
+ }
+.taginput .input-h {
+    height: 100% !important;
+    width: 100% !important;
+    border: none;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #CECACA ;
+    background-image: url(../../assist/aroow.png) ;
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 25px;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    margin-right: 2rem;
+
+
+}
+
+
+
+.Blog form .bodyTitle p {
+    margin-bottom: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+text-align: center;
+font-family: "Metropolis";
+
+
+}
+
+
+
+.input-h:focus{
+  
+    background: #CECACA !important; 
+    box-shadow: none;
+    
+ 
+}
+.Blog form .images-uploads {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.Blog form .images-upload {
+    width: 184px;
+    height: 237px;
+    margin-bottom: 22px;
+    margin-right: 43px;
+    border:none;
+    background: #CECACA !important;
+    border-radius: 8px;
+    
+}
+
+.Blog .images-upload-add {
+    width: 133px;
+    height: 157px;
+   
+    border: 1px solid rgba(241, 135, 1, 1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.images-upload-add label {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.Blog form .button-div {
+    width: 184px;
+    height: 56px;
+}
+
+.Blog form .button-div button {
+    width: 100%;
+    height: 100%;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+    border-radius: 8px;
+
+
+
+}
+.Blog form .button-div button:hover {
+    
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+    
+
+
+
+}
+
+
+.toast-position{
+    top: 10rem !important;
+    right: 0 !important;
+}
+
+
+@media only screen and (max-width:800px) {
+    .Blog {
+        margin: auto !important;
+         margin: 93px 10px !important;
+        
+       padding-left: 15px;
+       padding-right: 15px;
+    
+
+    }
+    .Blog form {
+        padding: 16px 18px;
+       
+    
+    }
+    .Blog .titelinput {
+      
+        margin-right: 0;
+    }
+    
+    .Blog .subtitelinput {
+        
+        
+        margin-left: 0;
+    }
+    
+
+}
+

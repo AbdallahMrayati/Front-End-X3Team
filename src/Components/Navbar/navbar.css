@@ -1,0 +1,115 @@
+.NavBarr {
+    display: flex;
+    position: fixed;
+    top: 0 !important;
+
+
+
+
+    border: none;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+
+
+    justify-content: space-between;
+    padding: 0 41px;
+    background-color: rgba(250, 248, 248, 1);
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    z-index: 1;
+
+
+
+}
+
+.NavBarr .logo {
+    width: 200px;
+    height: 55px;
+    padding: 5px 0;
+}
+
+.NavBarr .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.NavBarr .nav-items-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.NavBarr .nav-items-ul li {
+    padding-left: 72px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logout {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.logout:hover {
+
+    color: rgb(235, 97, 17);
+}
+
+.NavBarr .nav-items-ul .img-navitem {
+    height: 32px;
+    width: 32px;
+    ;
+    margin-right: 16px;
+}
+
+.NavBarr .nav-items-ul .img-navitem img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.NavBarr .nav-items-ul .none {
+    display: none;
+}
+
+.NavBarr h3 {
+
+    padding: 0;
+    margin: 0;
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+    font-weight: 400;
+
+
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+    .NavBarr .nav-items-ul li {
+        padding-left: 20px;
+
+    }
+
+    .NavBarr .logo {
+        width: 150px;
+        height: 55px;
+    }
+
+    .NavBarr {
+        padding: 0 10px;
+    }
+}

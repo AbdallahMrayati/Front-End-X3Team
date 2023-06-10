@@ -1,0 +1,221 @@
+.Portfolio {
+
+    margin: auto !important;
+    margin-top: 80px !important;
+
+
+    padding-left: 91px;
+    padding-right: 216px;
+
+
+
+
+}
+
+.Portfolio input,
+textarea,
+select {
+    border: none !important;
+    background: #CECACA ;
+
+    font-family: "Metropolis";
+   }
+   .Portfolio input:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+.Portfolio  textarea:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+.Portfolio  select:focus {
+    box-shadow: none;
+    background: #CECACA;
+}
+
+
+.Portfolio select{
+   
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: #CECACA ;
+        background-image: url(../../assist/aroow.png);
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-position-y: 20px;
+        border: 1px solid #dfdfdf;
+        border-radius: 8px;
+        margin-right: 2rem;
+       
+      
+}
+
+.Portfolio form {
+
+    margin: auto !important;
+    
+    padding: 16px 92px;
+    background-color: rgba(250, 248, 248, 1);
+    border: 1px solid #282828;
+    margin-bottom: 20px !important;
+    border-radius: 8px;
+    font-family: "Metropolis";
+
+}
+
+.Portfolio form .img-div {
+    padding: 0;
+    margin: 0;
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 21px;
+    
+    background: #CECACA;
+
+}
+
+.Portfolio form img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+
+}
+
+.Portfolio form .imgADD {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+
+
+.Portfolio form .imgADD label {
+    width: 90px;
+    height: 70px;
+    border-radius: 100%;
+   cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+.Portfolio form .selectinput {
+    padding-right: 5px;
+    height: 50px;
+    padding-left: 0;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+.Portfolio form .input-w {
+    padding-right: 0;
+    width: 183px !important;
+    height: 100%;
+}
+
+option {
+    width: 100% !important;
+}
+
+
+
+
+.Portfolio form .titleinput {
+    height: 50px;
+    padding-right: 0;
+}
+
+.Portfolio form .titleinput input {
+    height: 100%;
+}
+.titleinput input:focus{
+    background: #CECACA ; 
+}
+
+
+.Portfolio form .row {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.Portfolio form .row .desc {
+    width: 100%;
+    height: 81px;
+    margin-bottom: 12px;
+    background: #CECACA ;
+}
+
+.Portfolio form .row .input1-w {
+    height: 50px;
+}
+.Portfolio form .row .input1-w:focus {
+    background: #CECACA
+}
+
+
+.Portfolio form .button-div button {
+
+    width: 184px;
+    height: 48.59px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+    border-radius: 8px;
+
+}
+.Portfolio form .button-div button:hover {
+
+    color: rgba(40, 40, 40, 1);
+    background: #F35B04;
+
+
+}
+
+.toast-position{
+    top: 10rem !important;
+    right: 0 !important;
+}
+
+
+
+@media only screen and (max-width: 1141px) {
+
+    .Portfolio form {
+        padding: 16px 20px;
+
+
+
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .Portfolio {
+
+        margin: auto !important;
+        margin-top: 80px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+}

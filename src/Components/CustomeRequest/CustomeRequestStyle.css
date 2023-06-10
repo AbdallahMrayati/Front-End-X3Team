@@ -1,0 +1,359 @@
+.CustomeRequest{
+    margin: auto !important;
+    padding-left: 1%;
+    padding-right: 32px;
+   
+}
+
+.box{
+    margin: auto;
+    margin-top: 127px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 140px;
+
+}
+
+.searchinput, .selectinput1,  .selectinput2{
+    margin-bottom: 10px;
+}
+
+
+
+
+.searchinput{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width:373px ;
+    padding: 5px 0 ;
+    border-radius: 8px;
+    margin-right: 55px ;
+    height: 44px;
+   border: none;
+    background: #CECACA;
+}
+.searchinput input{
+    background: #CECACA;;
+    border: none;
+    height: 100%;
+    width: 83%;
+    margin-left: 12px;
+    padding-left: 0;
+    
+ 
+}
+.searchinput input:focus{
+    border:none !important;
+    background: #CECACA
+    
+ 
+}
+
+.searchinput img{
+   
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+ .selectinput1,  .selectinput2{
+    padding-right: 37px ;
+    height: 44px;
+    width: 184px;
+   
+   
+}
+
+.selectinput1 .input-w ,.selectinput2 .input-w{
+   
+    background: #CECACA;
+    height: 100%;
+    width: 100%;
+    border: none !important;
+   
+}
+
+
+.box select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background:  #CECACA;
+    background-image: url(../../assist/aroow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 93% !important;
+    background-position-y: 15px !important;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+.Table{
+    border-radius: 8px !important ;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #000000 !important;
+    background-color: #FAF8F8;
+   
+    
+    
+}
+table {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 1046px;
+    border-spacing: 0 15px; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Metropolis";
+    
+   
+  }
+  table th {
+    border-width: 1px 0;
+   
+    border-color: rgb(0, 0, 0);
+   
+    background-color: red;
+    color: black;
+   
+  }
+  table th:first-child {
+    border-left-width: 1px;
+    border-radius: 5px 0 0 5px;
+  }
+ table th:last-child {
+    border-right-width: 1px;
+    border-radius: 0 5px 5px 0;
+  }
+  table td {
+    border-width: 1px 0;
+  
+    border-color: rgb(0, 0, 0);
+   
+    background-color: red;
+    color: black;
+    
+  }
+table td:first-child {
+    border-left-width: 1px;
+    border-radius: 5px 0 0 5px;
+  }
+ table td:last-child {
+    border-right-width: 1px;
+    border-radius: 0 5px 5px 0;
+  }
+table thead {
+    display: table;
+  table-layout: fixed;
+  height: 58px;
+  width: 1014px;
+  padding: 0 15px ;
+  padding-top: 15px;
+  border-spacing: 0;
+  
+}
+tbody tr{
+    background-color: #CECACA;
+}
+thead tr{
+    background-color: 
+    #FAF8F8;
+}
+table tbody {
+    display: table;
+    table-layout: fixed;
+    padding: 0 15px;
+    width: 1014px;
+    height: 58px !important;
+
+  }
+  
+.name{
+    width: 130px;
+    
+    padding: 21px 0 !important;
+    padding-left: 12px !important ;
+}
+
+.cname{
+ width: 147px;
+ padding: 21px 0 !important;
+}
+
+.email{
+    width: 203px;
+    padding: 21px 0 !important;
+
+}
+
+.pnum{
+    width: 160px;
+    padding: 21px 0 !important;
+}
+
+.pname{
+    width: 102px;
+    padding: 21px 0 !important;
+    border-right: 2px !important;
+}
+
+.date{
+    width: 109px;
+    padding: 21px 0 !important;
+    text-align: center;
+}
+
+.chekk {
+    width: 60px;
+    padding: 21px 0 !important;
+}
+
+
+.delet{
+    width: 50px;
+    padding: 21px 0 !important;
+    padding-right: 12px !important;
+    
+}
+
+
+
+
+
+
+
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    border: 1px solid #F18701;
+    border-radius: 3px;
+    background-color: white;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 15px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 10px;
+}
+
+
+.pop{
+    width: 344px;
+   
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    padding-right: 0;
+    border-radius: 8px;
+    position: fixed;
+    top: 75%;
+    right: 0;
+}
+
+.btn-delete{
+    background: none;
+    border: none;
+}
+
+
+.toast-position{
+    top: 39rem !important;
+    right: 0 !important;
+}
+
+
+
+
+@media only screen and (min-width:1365px) {
+    .Table{
+       width: max-content;
+      
+   }
+}
+
+
+
+@media only screen and (max-width:1365px) {
+    .Table{
+       overflow-x: scroll;
+      
+   }
+}
+@media only screen and (max-width: 599px) {
+    .box{
+        
+        padding-left: 20px;
+        
+        
+        
+    }
+}
+    /* .searchinput{
+       
+        width:200px ;
+       
+    }
+    
+}table{
+    margin-top: 10px;
+    margin: auto;
+    height: 100%;
+    background-color: #D9D9D9;
+   text-align: center;
+   overflow:hidden;
+   border-radius: 8px !important;
+   border-width: 1px solid #F18701; 
+   
+   
+}
+
+
+tr {
+
+ 
+    border-radius: 100% !important; 
+    border-width: 16px !important;
+    border-radius: 100% !important; 
+  
+    
+}
+
+
+
+thead tr{
+    background-color: rgba(250, 248, 248, 1);
+    padding: 20px 0;
+} */
